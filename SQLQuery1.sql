@@ -30,6 +30,10 @@ delete from AddressBookTable where FirstName='Yasin';
 select FirstName,LastName from AddressBookTable where City='Kolkata' or State='West Bengal';
 
 
+/*UC7*/
+select count(City) as CityCount, count(State) as StateCount from AddressBookTable;
+
+
 
 
 
