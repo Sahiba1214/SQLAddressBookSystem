@@ -24,3 +24,13 @@ select * from AddressBookTable;
 
 /*UC5*/
 delete from AddressBookTable where FirstName='Yasin';
+
+
+/*UC6*/
+select FirstName,LastName from AddressBookTable where City='Kolkata' or State='West Bengal';
+
+
+
+
+
+
