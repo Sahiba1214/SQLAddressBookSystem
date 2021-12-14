@@ -21,3 +21,6 @@ insert into AddressBookTable(FirstName,LastName,Address,City,State,Zip,Phone,Ema
 update AddressBookTable set City='Madhopur' where FirstName='Sahiba';
 update AddressBookTable set Zip='6200300' where LastName='Abbas';
 select * from AddressBookTable;
+
+/*UC5*/
+delete from AddressBookTable where FirstName='Yasin';
