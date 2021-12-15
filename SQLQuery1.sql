@@ -38,4 +38,10 @@ select * from AddressBookTable where City='Patna' order by FirstName;
 
 
 
+/*UC9*/
+alter table AddressBookTable add NameType varchar(30);
+
+update AddressBookTable set NameType='Family' where FirstName='Sahiba' or FirstName='Mantasha';
+update AddressBookTable set NameType='Friends' where FirstName='Yasin' or FirstName='Zia';
+update AddressBookTable set NameType='Profession' where FirstName='Tahir';
 
