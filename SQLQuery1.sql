@@ -33,7 +33,8 @@ select FirstName,LastName from AddressBookTable where City='Kolkata' or State='W
 /*UC7*/
 select count(City) as CityCount, count(State) as StateCount from AddressBookTable;
 
-
+/*UC8*/
+select * from AddressBookTable where City='Patna' order by FirstName;
 
 
 
