@@ -45,3 +45,6 @@ update AddressBookTable set NameType='Family' where FirstName='Sahiba' or FirstN
 update AddressBookTable set NameType='Friends' where FirstName='Yasin' or FirstName='Zia';
 update AddressBookTable set NameType='Profession' where FirstName='Tahir';
 
+
+/*UC10*/
+select NameType,count(*) as TypeCount from AddressBookTable group by NameType;
